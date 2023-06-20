@@ -7,7 +7,7 @@
 
 
 body{
-    background-image:url(couple-forest-nature-hug-e1466447256731\ \(1\).jpg);
+    background-image:url(food-ice-cream-1498832514499.webp);
     color: white;
     margin: 0%;
     padding: 0%;
@@ -30,6 +30,13 @@ p{
     top: 25%;
     left: 50%;
     transform: translateX(-50%);
+    transition: tranform .4s;
+    ;
+}
+
+p:hover{
+    color:#f9004d;
+    transition: .4s;
 }
 
 .container{
@@ -42,3 +49,16 @@ p{
 link{
     display: none;
 }
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;

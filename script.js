@@ -50,7 +50,8 @@ if(fine === 'y'){
 } else{
     alert('aw no matter what happens I will stay by your side and love you forever 3>')
 }
-alert(`sorry can't be everything for you, it's just as simple as this`)
+alert(`sorry can't be everything for you, it's just as simple as this :(`)
+alert(`however i love u forever♥`)
 alert(`nice day ${sapa}`)
 document.querySelector("html").addEventListener("click", function () {
     alert("Ouch! Stop poking me!");
@@ -66,4 +67,5 @@ myImage.onclick = () => {
     myImage.setAttribute("src", "images/firefox-icon.png");
   }
 };
+
 
